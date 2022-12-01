@@ -1,0 +1,43 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6em;
+  font-size: 18px;
+}
+
+h1, h2, h3{
+  font-family: 'Oswald', sans-serif;
+}
+
+.box{
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+#box1{
+  background-color: #fefae0;
+  border: 2px solid #606c38;
+}
+
+#box2{
+  border-left: 10px solid #bc6c25;
+}
+
+#box3{
+  border: 2px solid #606c38;
+  border-radius: 10px;
+}
+
+#box4{
+  background-image: url('../images/stars.jpg');
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#box5{
+  background-image: url('../images/leaves.png');
+  background-repeat: no-repeat;
+  background-position: 300px 200px;
+}

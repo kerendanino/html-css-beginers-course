@@ -1,0 +1,160 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Design */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6em;
+  font-size: 18px;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2, h3{
+  font-family: 'Oswald', sans-serif;
+}
+
+h1{
+  color: #1d3557;
+}
+
+h2{
+  color: #457b9d;
+  margin-bottom: 10px;
+}
+
+h3{
+  color: #1d3557;
+  margin-bottom: 10px;
+}
+
+.clr{
+  clear: both;
+}
+
+/* Header */
+header{
+  padding: 10px;
+}
+header img{
+  width: 60px;
+  float: left;
+  margin-right: 30px;
+}
+
+/* Main Navigation */
+nav{
+  border: 1px solid #457b9d;
+  padding: 10px 20px;
+  overflow: auto;
+  border-radius: 10px;
+
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #1d3557;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color: #457b9d;
+}
+
+/* Slider */
+#slider{
+  height: 500px;
+  background-image: url('../images/stars.jpg');
+  text-align: center;
+  padding: 150px 50px;
+}
+
+#slider h2,
+#slider h3{
+  color: #fff;
+}
+
+#slider h2{
+  font-size: 40px;
+  margin-bottom: 30px;;
+}
+
+#slider h3{
+  font-size: 30px;
+}
+
+.sidebar{
+  width: 30%;
+  float: right;
+  padding: 20px;
+}
+
+.main-content{
+  width: 69%;
+  float: left;
+  padding: 20px;
+}
+
+/* About us */
+#about-us{
+  margin-bottom: 30px;
+}
+
+#about-us p span{
+  font-weight: bold;
+}
+
+/* Services */
+#services p span{
+  text-decoration: underline;
+  color: darkcyan;
+}
+
+.single-service{
+  background-color: #f1faee;
+  width: 32%;
+  margin-right: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.single-service:last-child{
+  margin: 0;
+}
+
+/* Projects */
+#projects img{
+  width: 100%;
+}
+
+/* Customers */
+#customers ul li{
+  display: inline;
+  margin-right: 20px;
+}
+
+#customers img{
+  width: 80px;
+  display: block;
+}
+
+
